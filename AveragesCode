@@ -1,0 +1,17 @@
+
+def AverageTime():
+	InputedTimes=[]
+	numTimes = 2
+	FirstTime=input("Input time 1 run in seconds: ")
+	print("The first run time is: " + FirstTime)
+
+	InputedTimes.append(int(FirstTime))
+	MultipleRuns=input("Is there another time Y/n: ")
+	
+
+	while MultipleRuns == "Y":
+		intimerun =f'{numTimes} time'
+		intimerun=input(f'Input time {numTimes} run in seconds: ')
+		InputedTimes.append(int(intimerun))
+		numTimes= numTimes + 1
+		MultipleRuns=input("Is there another time Y/n: ")
