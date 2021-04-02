@@ -15,3 +15,4 @@ def AverageTime():
 		InputedTimes.append(int(intimerun))
 		numTimes= numTimes + 1
 		MultipleRuns=input("Is there another time Y/n: ")
+This is a test to the revisions 
